@@ -14,7 +14,7 @@ function init() {
     renderer.setSize(window.innerWidth, window.innerHeight);
 
     // show axes in the screen
-    // 創建座標軸，粗細 20
+    // 創建座標軸，長度 20
     var axes = new THREE.AxesHelper(20);
     // 加入場景中
     scene.add(axes);
